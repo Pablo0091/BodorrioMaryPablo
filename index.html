@@ -1,0 +1,136 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boda de Pablo y Mar</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            background-color: #fef7f1;
+            color: #5a4036;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #e6d9cc;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 2px solid #d4bba1;
+        }
+        header h1 {
+            font-size: 48px;
+            margin: 0;
+            color: #5a4036;
+        }
+        header p {
+            font-size: 20px;
+            margin-top: 10px;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+        }
+        h2 {
+            font-size: 28px;
+            color: #874d40;
+            border-bottom: 2px solid #d4bba1;
+            display: inline-block;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        .horarios ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .horarios ul li {
+            margin: 5px 0;
+        }
+        .formulario input, .formulario textarea {
+            display: block;
+            margin: 10px 0;
+            padding: 10px;
+            width: 100%;
+            max-width: 400px;
+            font-size: 16px;
+        }
+        .formulario button {
+            background-color: #874d40;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .formulario button:hover {
+            background-color: #5a4036;
+        }
+        .hoteles ul {
+            list-style-type: square;
+        }
+        footer {
+            text-align: center;
+            background-color: #e6d9cc;
+            padding: 20px;
+            border-top: 2px solid #d4bba1;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Boda de Pablo y Mar</h1>
+        <p>¡Nos casamos el 7 de junio de 2025!</p>
+    </header>
+
+    <section class="historia">
+        <h2>Nuestra historia</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus malesuada, lectus quis consectetur 
+        fermentum, nunc lacus aliquam sapien, a tempor erat sapien non enim. Nullam auctor felis ac metus tincidunt, 
+        quis posuere justo elementum.</p>
+    </section>
+
+    <section class="horarios">
+        <h2>Horarios</h2>
+        <ul>
+            <li><strong>13:15:</strong> Ceremonia religiosa en Iglesia San Juan del Hospital.</li>
+            <li><strong>15:00:</strong> Banquete en Masia de El Carmen.</li>
+            <li><strong>18:30:</strong> ¡Comienza la fiesta!</li>
+        </ul>
+    </section>
+
+    <section class="hoteles">
+        <h2>Hoteles recomendados</h2>
+        <ul>
+            <li>Hotel Valencia Center</li>
+            <li>Hotel NH Valencia Las Ciencias</li>
+            <li>Hotel Silken Puerta de Valencia</li>
+        </ul>
+    </section>
+
+    <section class="regalos">
+        <h2>Regalo de bodas</h2>
+        <p>El mejor regalo es tenerte con nosotros en este día tan especial. Pero si deseas ayudarnos, 
+        puedes hacerlo con una contribución en el número de cuenta:</p>
+        <p><strong>ES12 3456 7890 1234 5678 9012</strong></p>
+        <p>¡Prometemos usarlo en una luna de miel inolvidable y mandarte fotos de agradecimiento!</p>
+    </section>
+
+    <section class="formulario">
+        <h2>Confirma tu asistencia</h2>
+        <form action="mailto:marypablo@gmail.com" method="post" enctype="text/plain">
+            <input type="text" name="nombre" placeholder="Tu nombre" required>
+            <input type="email" name="email" placeholder="Tu correo electrónico" required>
+            <textarea name="mensaje" placeholder="Mensaje (opcional)"></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>Contacto: marypablo@gmail.com | Teléfono: 636 303 537</p>
+    </footer>
+</body>
+</html>
